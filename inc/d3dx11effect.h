@@ -15,6 +15,7 @@
 
 #if defined(_XBOX_ONE) && defined(_TITLE)
 #include <d3d11_x.h>
+#include <d3d11shader_x.h>
 #define NO_D3D11_DEBUG_NAME
 #else
 #include <d3d11_1.h>
